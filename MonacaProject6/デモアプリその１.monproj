@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>20579069-1ee0-42f8-9a93-c5ee48696508</ProjectGuid>
+    <ProjectTypeGuid>{6FC514F7-6F4D-4FD4-95ED-F37F61E798EF}</ProjectTypeGuid>
+    <ProjectName>MonacaProject</ProjectName>
+    <IsRunnable>true</IsRunnable>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>MonacaProject</AssemblyName>
+    <Name>MonacaProject</Name>
+    <RootNamespace>MonacaProject</RootNamespace>
+    <MonacaTemplate>Imported</MonacaTemplate>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include=".monaca" />
+    <Folder Include="platforms" />
+    <Folder Include="platforms\android" />
+    <Folder Include="platforms\android\res" />
+    <Folder Include="platforms\android\res\drawable" />
+    <Folder Include="platforms\android\res\drawable-hdpi" />
+    <Folder Include="platforms\android\res\drawable-ldpi" />
+    <Folder Include="platforms\android\res\drawable-mdpi" />
+    <Folder Include="platforms\android\res\drawable-xhdpi" />
+    <Folder Include="platforms\android\res\drawable-xxhdpi" />
+    <Folder Include="platforms\android\res\drawable-xxxhdpi" />
+    <Folder Include="platforms\chrome" />
+    <Folder Include="platforms\ios" />
+    <Folder Include="platforms\ios\MonacaApp" />
+    <Folder Include="platforms\ios\MonacaApp\Resources" />
+    <Folder Include="platforms\ios\MonacaApp\Resources\icons" />
+    <Folder Include="platforms\ios\MonacaApp\Resources\splash" />
+    <Folder Include="platforms\winrt" />
+    <Folder Include="www" />
+    <Folder Include="www\components" />
+    <Folder Include="www\components\monaca-cordova-loader" />
+    <Folder Include="www\components\monaca-core-utils" />
+    <Folder Include="www\components\monaca-onsenui" />
+    <Folder Include="www\components\monaca-onsenui\css" />
+    <Folder Include="www\components\monaca-onsenui\css\font_awesome" />
+    <Folder Include="www\components\monaca-onsenui\css\font_awesome\css" />
+    <Folder Include="www\components\monaca-onsenui\css\font_awesome\fonts" />
+    <Folder Include="www\components\monaca-onsenui\js" />
+    <Folder Include="www\components\monaca-onsenui\js\angular" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".monaca\project_info.json" />
+    <Content Include="config.android.xml" />
+    <Content Include="config.ios.xml" />
+    <Content Include="platforms\android\AndroidManifest.xml" />
+    <Content Include="platforms\android\res\drawable-hdpi\icon.png" />
+    <Content Include="platforms\android\res\drawable-hdpi\screen.9.png" />
+    <Content Include="platforms\android\res\drawable-ldpi\icon.png" />
+    <Content Include="platforms\android\res\drawable-ldpi\screen.9.png" />
+    <Content Include="platforms\android\res\drawable-mdpi\icon.png" />
+    <Content Include="platforms\android\res\drawable-mdpi\screen.9.png" />
+    <Content Include="platforms\android\res\drawable-xhdpi\icon.png" />
+    <Content Include="platforms\android\res\drawable-xhdpi\screen.9.png" />
+    <Content Include="platforms\android\res\drawable-xxhdpi\icon.png" />
+    <Content Include="platforms\android\res\drawable-xxhdpi\screen.9.png" />
+    <Content Include="platforms\android\res\drawable-xxxhdpi\icon.png" />
+    <Content Include="platforms\android\res\drawable-xxxhdpi\screen.9.png" />
+    <Content Include="platforms\android\splash_default.png" />
+    <Content Include="platforms\chrome\background.js" />
+    <Content Include="platforms\chrome\icon.png" />
+    <Content Include="platforms\chrome\manifest.json" />
+    <Content Include="platforms\ios\MonacaApp-Info.plist" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-40.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-40@2x.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-50.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-50@2x.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-60.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-60@2x.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-72.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-72@2x.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-76.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-76@2x.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-small.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon-small@2x.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\icons\icon@2x.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default-568h@2x.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default-568h@2x~iphone.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default-Landscape.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default-Landscape@2x.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default-Landscape@2x~ipad.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default-Landscape~ipad.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default-Portrait.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default-Portrait@2x.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default-Portrait@2x~ipad.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default-Portrait~ipad.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default@2x.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default@2x~iphone.png" />
+    <Content Include="platforms\ios\MonacaApp\Resources\splash\Default~iphone.png" />
+    <Content Include="platforms\winrt\app_logo_winrt.png" />
+    <Content Include="platforms\winrt\app_small_logo_winrt.png" />
+    <Content Include="platforms\winrt\app_splash_screen_winrt.png" />
+    <Content Include="platforms\winrt\app_tile_wide_logo_winrt.png" />
+    <Content Include="platforms\winrt\package_logo_winrt.png" />
+    <Content Include="www\components\loader.css" />
+    <Content Include="www\components\loader.js" />
+    <Content Include="www\components\monaca-cordova-loader\.bower.json" />
+    <Content Include="www\components\monaca-cordova-loader\bower.json" />
+    <Content Include="www\components\monaca-cordova-loader\cordova-loader.js" />
+    <Content Include="www\components\monaca-core-utils\.bower.json" />
+    <Content Include="www\components\monaca-core-utils\bower.json" />
+    <Content Include="www\components\monaca-core-utils\monaca-core-utils.js" />
+    <Content Include="www\components\monaca-onsenui\.bower.json" />
+    <Content Include="www\components\monaca-onsenui\bower.json" />
+    <Content Include="www\components\monaca-onsenui\css\font_awesome\css\font-awesome.min.css" />
+    <Content Include="www\components\monaca-onsenui\css\font_awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="www\components\monaca-onsenui\css\font_awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="www\components\monaca-onsenui\css\font_awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="www\components\monaca-onsenui\css\font_awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="www\components\monaca-onsenui\css\font_awesome\fonts\FontAwesome.otf" />
+    <Content Include="www\components\monaca-onsenui\css\onsen-css-components-dark.css" />
+    <Content Include="www\components\monaca-onsenui\css\onsen-css-components-purple.css" />
+    <Content Include="www\components\monaca-onsenui\css\onsen-css-components-red.css" />
+    <Content Include="www\components\monaca-onsenui\css\onsen-css-components.css" />
+    <Content Include="www\components\monaca-onsenui\css\onsenui.css" />
+    <Content Include="www\components\monaca-onsenui\js\angular\angular-animate.js" />
+    <Content Include="www\components\monaca-onsenui\js\angular\angular-csp.css" />
+    <Content Include="www\components\monaca-onsenui\js\angular\angular-touch.js" />
+    <Content Include="www\components\monaca-onsenui\js\angular\angular.js" />
+    <Content Include="www\components\monaca-onsenui\js\angular\angular.min.js" />
+    <Content Include="www\components\monaca-onsenui\js\onsenui.js" />
+    <Content Include="www\components\monaca-onsenui\js\onsenui_all.js" />
+    <Content Include="www\index.html" />
+    <Content Include="www\navigator.html" />
+    <Content Include="www\new_page.html" />
+    <Content Include="www\page2.html" />
+    <Content Include="www\page3.html" />
+    <Content Include="www\README.md" />
+  </ItemGroup>
+  <Target Name="Build" />
+  <Target Name="Rebuild" />
+  <Target Name="Clean" />
+</Project>
